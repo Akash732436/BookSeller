@@ -1,0 +1,73 @@
+﻿@model List<Category>
+@{
+	ViewData["Title"] = "Index";
+}
+
+
+<partial name="_Notofication"/>
+
+<div class="container">
+
+	<div class="row">
+		<div class="col-6">
+			Category List
+		</div>
+		<div class="col-6 text-end">
+			<a class="btn btn-primary" asp-controller="Category" asp-action="Create">
+				<i class="bi bi-plus-circle me-2"></i>
+				New
+				</a>
+		</div>
+	</div>
+
+<table class="table table-bordered table-hover mt-4" style="width:100%;">
+	<thead>
+		<tr>
+			<th scope="col" style="width:30%;">
+			<div class="ps-2">Name</div>
+			</th>
+			<th scope="col" style="width:30%">
+			<div class="ps-2">Order Number</div>
+			</th>
+			<th>
+			</th>
+			<th>
+			</th>
+
+		</tr>
+		
+	</thead>
+	<tbody>
+	@foreach (var item in Model)
+		{
+			<tr class="active">
+				<td>
+					<div class="ps-2">
+						@item.Name
+					</div>
+				</td>
+
+				<td>
+					<div class="ps-2">
+					@item.DisplayOrder
+					</div>
+				</td>
+				<td class="text-end">
+					<a class="btn btn-info" asp-controller="Category" asp-action="Edit" asp-route-id="@item.Id">
+							<i class="bi bi-pencil-square"></i>
+						Update
+					</a>
+				</td>
+					<td class="text-end">
+						<a class="btn btn-info" asp-controller="Category" asp-action="Delete" asp-route-id="@item.Id">
+									<i class="bi bi-trash"></i>
+							Delete
+						</a>
+					</td>
+			</tr>
+		}
+		</tbody>
+
+</table>
+</div>
+
