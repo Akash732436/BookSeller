@@ -16,28 +16,60 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\c# sample code\demo projects\BookSeller\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/c\# sample code/demo projects/BookSeller/WebApp/Views/Category/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+[D:/c\# sample code/demo projects/BookSeller/WebApp/Areas/Admin/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c\# sample code/demo projects/BookSeller/WebApp/Views/Category/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+[D:/c\# sample code/demo projects/BookSeller/WebApp/Areas/Admin/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c\# sample code/demo projects/BookSeller/WebApp/Views/Category/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+[D:/c\# sample code/demo projects/BookSeller/WebApp/Areas/Admin/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c\# sample code/demo projects/BookSeller/WebApp/Views/Category/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+[D:/c\# sample code/demo projects/BookSeller/WebApp/Areas/Admin/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c\# sample code/demo projects/BookSeller/WebApp/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[D:/c\# sample code/demo projects/BookSeller/WebApp/Areas/Admin/Views/Cover/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ292ZXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c\# sample code/demo projects/BookSeller/WebApp/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[D:/c\# sample code/demo projects/BookSeller/WebApp/Areas/Admin/Views/Cover/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ292ZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\# sample code/demo projects/BookSeller/WebApp/Areas/Admin/Views/Cover/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ292ZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\# sample code/demo projects/BookSeller/WebApp/Areas/Admin/Views/Cover/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ292ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\# sample code/demo projects/BookSeller/WebApp/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\# sample code/demo projects/BookSeller/WebApp/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\# sample code/demo projects/BookSeller/WebApp/Areas/Customer/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\# sample code/demo projects/BookSeller/WebApp/Areas/Customer/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\# sample code/demo projects/BookSeller/WebApp/Areas/Customer/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/c\# sample code/demo projects/BookSeller/WebApp/Areas/Customer/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/c\# sample code/demo projects/BookSeller/WebApp/Views/Shared/Error.cshtml]
@@ -52,12 +84,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c\# sample code/demo projects/BookSeller/WebApp/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[D:/c\# sample code/demo projects/BookSeller/WebApp/Views/Shared/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/c\# sample code/demo projects/BookSeller/WebApp/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[D:/c\# sample code/demo projects/BookSeller/WebApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/c\# sample code/demo projects/BookSeller/WebApp/Views/Shared/_Layout.cshtml]
