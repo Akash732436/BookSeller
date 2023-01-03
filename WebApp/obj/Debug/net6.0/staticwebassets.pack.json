@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\WebApp.bundle.scp.css"
     },
     {
+      "Id": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\Images\\Products\\1a5b3a68-b1f3-4ff9-a79d-30e1b43c68a2.jfif",
+      "PackagePath": "staticwebassets\\Images\\Products\\1a5b3a68-b1f3-4ff9-a79d-30e1b43c68a2.jfif"
+    },
+    {
       "Id": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\css\\QuartzTheme.css",
       "PackagePath": "staticwebassets\\css\\QuartzTheme.css"
     },
@@ -15,6 +19,10 @@
     {
       "Id": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
       "Id": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\js\\site.js",

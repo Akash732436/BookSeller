@@ -12,5 +12,7 @@ namespace BookSeller.DataAccess
 
         public DbSet<Cover> Covers { get; set; }
 
+        public DbSet<Product> Products { get; set; }
+
     }
 }

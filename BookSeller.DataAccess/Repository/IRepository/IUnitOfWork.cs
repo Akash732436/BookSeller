@@ -12,6 +12,8 @@ namespace BookSeller.DataAccess.Repository.IRepository
 
 		ICoverRepository Covers { get; }
 
+		IProductRepository Products { get; }
+
 		void Save();
 	}
 }

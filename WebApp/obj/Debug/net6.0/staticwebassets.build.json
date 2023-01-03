@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TUq3pvRYTekAG/NdK/vkzBAwEcuURoZQNWjA1XPuwm4=",
+  "Hash": "96gRUYgugBbnabPe+UGB0vK/A+dKGbVDjX3xjhtKQoA=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\Images\\Products\\1a5b3a68-b1f3-4ff9-a79d-30e1b43c68a2.jfif",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "Images/Products/1a5b3a68-b1f3-4ff9-a79d-30e1b43c68a2.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Products\\1a5b3a68-b1f3-4ff9-a79d-30e1b43c68a2.jfif"
+    },
+    {
+      "Identity": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\js\\product.js",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "js/product.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\product.js"
     },
     {
       "Identity": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\js\\site.js",

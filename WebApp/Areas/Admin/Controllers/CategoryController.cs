@@ -1,5 +1,4 @@
-﻿using BookSeller.DataAccess;
-using BookSeller.DataAccess.Repository.IRepository;
+﻿using BookSeller.DataAccess.Repository.IRepository;
 using BookSeller.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,14 +8,14 @@ namespace WebApp.Areas.Admin.Controllers
     {
         private readonly IUnitOfWork _UnitOfWork;
 
-        public CategoryController(IUnitOfWork UnitOfWork)
+        public CategoryController(IUnitOfWork _UnitOfWork)
         {
-            _UnitOfWork = UnitOfWork;
+            this._UnitOfWork = _UnitOfWork;
         }
 
         public IActionResult Index()
         {
-            IEnumerable<Category> CategoryList = _UnitOfWork.Category.GetAll();
+            IEnumerable<Category> CategoryList =_UnitOfWork.Category.GetAll();
             return View(CategoryList);
         }
 
