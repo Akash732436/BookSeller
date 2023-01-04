@@ -7,6 +7,7 @@ using System.Collections.Generic;
 
 namespace WebApp.Areas.Admin.Controllers
 {
+	[Area("Admin")]
 	public class ProductController : Controller
 	{
 		IUnitOfWork _unitOfWOrk;

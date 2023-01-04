@@ -1,9 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using BookSeller.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace BookSeller.DataAccess
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         { }
@@ -13,6 +14,10 @@ namespace BookSeller.DataAccess
         public DbSet<Cover> Covers { get; set; }
 
         public DbSet<Product> Products { get; set; }
+
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+
+        public DbSet<Company> Companys { get; set; }
 
     }
 }

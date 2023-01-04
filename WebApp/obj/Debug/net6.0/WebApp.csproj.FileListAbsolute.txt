@@ -294,3 +294,10 @@ D:\c# sample code\demo projects\BookSeller\WebApp\bin\Debug\net6.0\runtimes\win\
 D:\c# sample code\demo projects\BookSeller\WebApp\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 D:\c# sample code\demo projects\BookSeller\WebApp\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 D:\c# sample code\demo projects\BookSeller\WebApp\obj\Debug\net6.0\WebApp.MvcApplicationPartsAssemblyInfo.cs
+D:\c# sample code\demo projects\BookSeller\WebApp\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\c# sample code\demo projects\BookSeller\WebApp\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\c# sample code\demo projects\BookSeller\WebApp\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\c# sample code\demo projects\BookSeller\WebApp\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\c# sample code\demo projects\BookSeller\WebApp\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\c# sample code\demo projects\BookSeller\WebApp\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\c# sample code\demo projects\BookSeller\WebApp\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll

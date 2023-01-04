@@ -14,6 +14,8 @@ namespace BookSeller.DataAccess.Repository
 		public ICoverRepository Covers { get; private set; }
 		public IProductRepository Products { get; private set; }
 
+		public ICompanyRepository Company { get; private set; }
+
 		private readonly ApplicationDbContext _db;
 
 		public UnitOfWork(ApplicationDbContext db)
@@ -22,6 +24,7 @@ namespace BookSeller.DataAccess.Repository
 			Category = new CategoryRepository(_db);
 			Covers=new CoverRepository(_db);
 			Products=new ProductRepository(_db);
+			Company= new CompanyRepository(_db);
 		}
 
 		public void Save()
