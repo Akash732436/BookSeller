@@ -5,8 +5,12 @@
       "PackagePath": "staticwebassets\\WebApp.bundle.scp.css"
     },
     {
-      "Id": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\Images\\Products\\1a5b3a68-b1f3-4ff9-a79d-30e1b43c68a2.jfif",
-      "PackagePath": "staticwebassets\\Images\\Products\\1a5b3a68-b1f3-4ff9-a79d-30e1b43c68a2.jfif"
+      "Id": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\Images\\Products\\710669ed-bfec-4f23-b1d1-3c7ee2a1849a.png",
+      "PackagePath": "staticwebassets\\Images\\Products\\710669ed-bfec-4f23-b1d1-3c7ee2a1849a.png"
+    },
+    {
+      "Id": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\Images\\Products\\cfd7fc4f-d947-419a-96df-03e38f076a5b.jfif",
+      "PackagePath": "staticwebassets\\Images\\Products\\cfd7fc4f-d947-419a-96df-03e38f076a5b.jfif"
     },
     {
       "Id": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\css\\QuartzTheme.css",

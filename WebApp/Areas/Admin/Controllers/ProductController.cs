@@ -116,6 +116,27 @@ namespace WebApp.Areas.Admin.Controllers
 			var productList = _unitOfWOrk.Products.GetAll(includeProperties:"Category,Cover");
 			return Json(new { data = productList });
 		}
+		[HttpDelete]
+		public IActionResult Delete(int? id)
+		{
+			var obj = _unitOfWOrk.Products.GetFirstOrDefault(u=>u.Id==id);
+
+			if (obj == null)
+			{
+				return Json(new { success = false, message = "Error while deleting" });
+			}
+
+			var oldPath = Path.Combine(_webHostEnvironment.WebRootPath, obj.ImageUrl.TrimStart('\\'));
+			if (System.IO.File.Exists(oldPath))
+			{
+				System.IO.File.Delete(oldPath);
+			}
+
+			_unitOfWOrk.Products.Remove(obj);
+			_unitOfWOrk.Save();
+			return Json(new { success = true, message = "Delete Successful" });
+
+		}
 
 		#endregion
 
