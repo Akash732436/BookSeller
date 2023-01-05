@@ -9,6 +9,7 @@
       "WebApp/1.0.0": {
         "dependencies": {
           "BookSeller.DataAccess": "1.0.0",
+          "BookSeller.Utility": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.12",
           "Microsoft.AspNetCore.Identity.UI": "6.0.12",
           "Microsoft.EntityFrameworkCore": "7.0.1",
@@ -2761,6 +2762,14 @@
         "runtime": {
           "BookSeller.Models.dll": {}
         }
+      },
+      "BookSeller.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "6.0.12"
+        },
+        "runtime": {
+          "BookSeller.Utility.dll": {}
+        }
       }
     }
   },
@@ -4344,6 +4353,11 @@
       "sha512": ""
     },
     "BookSeller.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookSeller.Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

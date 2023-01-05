@@ -4469,6 +4469,19 @@
         "runtime": {
           "bin/placeholder/BookSeller.Models.dll": {}
         }
+      },
+      "BookSeller.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "6.0.12"
+        },
+        "compile": {
+          "bin/placeholder/BookSeller.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookSeller.Utility.dll": {}
+        }
       }
     }
   },
@@ -12069,11 +12082,17 @@
       "type": "project",
       "path": "../BookSeller.Models/BookSeller.Models.csproj",
       "msbuildProject": "../BookSeller.Models/BookSeller.Models.csproj"
+    },
+    "BookSeller.Utility/1.0.0": {
+      "type": "project",
+      "path": "../BookSeller.Utility/BookSeller.Utility.csproj",
+      "msbuildProject": "../BookSeller.Utility/BookSeller.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "BookSeller.DataAccess >= 1.0.0",
+      "BookSeller.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.12",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.12",
       "Microsoft.EntityFrameworkCore >= 7.0.1",
@@ -12112,6 +12131,9 @@
           "projectReferences": {
             "D:\\c# sample code\\demo projects\\BookSeller\\BookSeller.DataAccess\\BookSeller.DataAccess.csproj": {
               "projectPath": "D:\\c# sample code\\demo projects\\BookSeller\\BookSeller.DataAccess\\BookSeller.DataAccess.csproj"
+            },
+            "D:\\c# sample code\\demo projects\\BookSeller\\BookSeller.Utility\\BookSeller.Utility.csproj": {
+              "projectPath": "D:\\c# sample code\\demo projects\\BookSeller\\BookSeller.Utility\\BookSeller.Utility.csproj"
             }
           }
         }
