@@ -1,9 +1,12 @@
-﻿using BookSeller.DataAccess.Repository.IRepository;
+﻿using BookSeller.DataAccess.Repository;
+using BookSeller.DataAccess.Repository.IRepository;
 using BookSeller.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Security.Claims;
 
 namespace WebApp.Areas.Customer.Controllers
 {
@@ -25,15 +28,44 @@ namespace WebApp.Areas.Customer.Controllers
             return View(products);
         }
 
-        public IActionResult Details(int? id)
+        public IActionResult Details(int productId)
         {
             ShoppingCart cartObj = new()
             {
                 Count = 1,
-                Product = unitOfWork.Products.GetFirstOrDefault(x => x.Id == id, includeProperties:"Category,Cover")
+                ProductId= productId,
+                Product = unitOfWork.Products.GetFirstOrDefault(x => x.Id == productId, includeProperties:"Category,Cover")
             };
 
             return View(cartObj);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize]
+
+        public IActionResult Details(ShoppingCart shoppingCart)
+        {
+            var claim =(ClaimsIdentity) User.Identity;
+            var id = claim.FindFirst(ClaimTypes.NameIdentifier);
+            shoppingCart.ApplicationUserId = id.Value;
+
+
+            ShoppingCart cartFromDb = unitOfWork.ShoppingCart.GetFirstOrDefault(
+                x=>x.ApplicationUserId==id.Value && x.ProductId==shoppingCart.ProductId
+            );
+
+            if (cartFromDb == null)
+            {
+				unitOfWork.ShoppingCart.Add(shoppingCart);
+			}
+            else
+            {
+                unitOfWork.ShoppingCart.IncrementCount(cartFromDb, shoppingCart.Count);
+            }
+            
+            unitOfWork.Save();
+            return RedirectToAction(nameof(Index));
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

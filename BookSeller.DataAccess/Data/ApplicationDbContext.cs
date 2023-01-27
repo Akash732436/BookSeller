@@ -19,5 +19,7 @@ namespace BookSeller.DataAccess
 
         public DbSet<Company> Companys { get; set; }
 
+        public DbSet<ShoppingCart> ShoppingCarts { get; set; }
+
     }
 }

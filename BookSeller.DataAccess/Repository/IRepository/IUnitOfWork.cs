@@ -16,6 +16,9 @@ namespace BookSeller.DataAccess.Repository.IRepository
 
 		ICompanyRepository Company { get; }
 
-		void Save();
+        IApplicationUserRepository ApplicationUser { get;}
+        IShoppingCartRepository ShoppingCart { get; }
+
+        void Save();
 	}
 }

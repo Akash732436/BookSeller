@@ -5,8 +5,24 @@
       "PackagePath": "staticwebassets\\WebApp.bundle.scp.css"
     },
     {
+      "Id": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\Images\\Products\\4cd9b00c-292e-4e0d-9b1f-57d362cfe8a2.jfif",
+      "PackagePath": "staticwebassets\\Images\\Products\\4cd9b00c-292e-4e0d-9b1f-57d362cfe8a2.jfif"
+    },
+    {
       "Id": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\Images\\Products\\710669ed-bfec-4f23-b1d1-3c7ee2a1849a.png",
       "PackagePath": "staticwebassets\\Images\\Products\\710669ed-bfec-4f23-b1d1-3c7ee2a1849a.png"
+    },
+    {
+      "Id": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\Images\\Products\\8bb3b1b1-b106-4bf8-bc22-c11ccbbffaff.jfif",
+      "PackagePath": "staticwebassets\\Images\\Products\\8bb3b1b1-b106-4bf8-bc22-c11ccbbffaff.jfif"
+    },
+    {
+      "Id": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\Images\\Products\\c29a3bf8-113e-40da-b9c2-25f8fafc09e3.jfif",
+      "PackagePath": "staticwebassets\\Images\\Products\\c29a3bf8-113e-40da-b9c2-25f8fafc09e3.jfif"
+    },
+    {
+      "Id": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\Images\\Products\\d76ae451-42d9-4ec3-8551-8d32e3296c03.jfif",
+      "PackagePath": "staticwebassets\\Images\\Products\\d76ae451-42d9-4ec3-8551-8d32e3296c03.jfif"
     },
     {
       "Id": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\css\\QuartzTheme.css",
