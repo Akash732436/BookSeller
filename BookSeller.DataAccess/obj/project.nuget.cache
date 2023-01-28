@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DXkiCJRqTIzTBxaWxTIQoXZJ6pn0U4r1gmCriRYkI++69w9pNcXzFeAiQMrpwS17QxQxbLwgymX+7CJDRkPN0g==",
+  "dgSpecHash": "K5qviC7vkJU+AsSpDionTvxNUZxWzPHXk0j2zinU5Pbcbw1Z61RkUqtencmy2XVQaKMPyNL3NQaLnJGAHbJhrQ==",
   "success": true,
   "projectFilePath": "D:\\c# sample code\\demo projects\\BookSeller\\BookSeller.DataAccess\\BookSeller.DataAccess.csproj",
   "expectedPackageFiles": [

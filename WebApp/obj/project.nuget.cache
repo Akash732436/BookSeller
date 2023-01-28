@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VO10UmmS4nq5JMmP18hYfrtKdzMxAmxXDoqFgiVeKfTsyBPlQCm0uycGj53Yr0Gp79FwQqzgZnrPRrfeUNbMMg==",
+  "dgSpecHash": "du6+T/nG05NMYBhAzP+Yeqh5b6qgRgPcbTkFdyE7Spg2a8B0/RicFAqTig7R4ZfYXO+MvcU+cMmkS8kBn8YZ6g==",
   "success": true,
   "projectFilePath": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\WebApp.csproj",
   "expectedPackageFiles": [
@@ -142,6 +142,7 @@
     "C:\\Users\\akash\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\akash\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\akash\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\akash\\.nuget\\packages\\stripe.net\\41.5.0\\stripe.net.41.5.0.nupkg.sha512",
     "C:\\Users\\akash\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\akash\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\akash\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",

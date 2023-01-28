@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\Images\\Products\\d76ae451-42d9-4ec3-8551-8d32e3296c03.jfif"
     },
     {
+      "Id": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\Images\\lawn_leaf.jpg",
+      "PackagePath": "staticwebassets\\Images\\lawn_leaf.jpg"
+    },
+    {
       "Id": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\css\\QuartzTheme.css",
       "PackagePath": "staticwebassets\\css\\QuartzTheme.css"
     },

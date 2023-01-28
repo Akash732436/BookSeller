@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using BookSeller.Utility;
+using Stripe;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +20,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProvid
     .AddEntityFrameworkStores<ApplicationDbContext>();
 //builder.Services.AddDefaultIdentity<IdentityUser>()
 //	.AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.Configure<StripeSeting>(builder.Configuration.GetSection("Stripe"));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddSingleton<IEmailSender, EmailManager>();
 builder.Services.ConfigureApplicationCookie(options =>
@@ -42,6 +44,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
 app.UseAuthentication();
 
 app.UseAuthorization();

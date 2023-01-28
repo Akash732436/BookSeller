@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JUAtVm0+GF7EZobwr229qIx3J+BPq7sIBCAXJv/NNLU=",
+  "Hash": "YZWl+Qvllp2m6IdBpA4icWEVXHD+LZxtMgoQ7dvOsas=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\Images\\lawn_leaf.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "Images/lawn_leaf.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\lawn_leaf.jpg"
     },
     {
       "Identity": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\Images\\Products\\4cd9b00c-292e-4e0d-9b1f-57d362cfe8a2.jfif",
