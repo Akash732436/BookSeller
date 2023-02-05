@@ -155,6 +155,9 @@ namespace BookSeller.DataAccess.Migrations
                     b.Property<double>("OrderTotal")
                         .HasColumnType("float");
 
+                    b.Property<DateTime>("PaymentDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<DateTime>("PaymentDueDate")
                         .HasColumnType("datetime2");
 

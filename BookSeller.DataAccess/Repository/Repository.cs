@@ -41,9 +41,14 @@ namespace BookSeller.DataAccess.Repository
 			return query.ToList();
 		}
 
-		public T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties = null)
+		public T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties = null,bool tracked=true)
 		{
-			IQueryable<T> query = dbSet;
+			IQueryable<T> query;
+			if (tracked == true)
+			{
+				query = dbSet;
+			}
+			else query = dbSet.AsNoTracking();
 
 			query=query.Where(filter);
 

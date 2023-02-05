@@ -40,6 +40,7 @@ namespace BookSeller.DataAccess.Repository
 		public void UpdateStripePaymentID(int id, string sessionId, string paymentIntentId)
 		{
 			var orderfromDb = _db.OrderHeaders.FirstOrDefault(x => x.Id == id);
+			orderfromDb.PaymentDate = DateTime.Now;
 			orderfromDb.SessionId = sessionId;
 			orderfromDb.PaymentIntentId= paymentIntentId;
 		}

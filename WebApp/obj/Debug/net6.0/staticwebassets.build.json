@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YZWl+Qvllp2m6IdBpA4icWEVXHD+LZxtMgoQ7dvOsas=",
+  "Hash": "68aLqFE52CarIp7tEydfF3AnTJEkW5mB8EDZplurXec=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -1239,6 +1239,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\company.js"
+    },
+    {
+      "Identity": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\js\\Order.js",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "js/Order.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Order.js"
     },
     {
       "Identity": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\wwwroot\\js\\product.js",

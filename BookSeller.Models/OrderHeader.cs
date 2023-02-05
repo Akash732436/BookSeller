@@ -20,6 +20,7 @@ namespace BookSeller.Models
 		[Required]
 		public DateTime OrderDate { get; set; }
 		public DateTime ShippingDate { get; set; }
+		public DateTime PaymentDate { get; set; }
 		public double OrderTotal { get; set; }
 		public string? OrderStatus { get; set; }
 		public string? PaymentStatus { get; set;}
@@ -40,5 +41,6 @@ namespace BookSeller.Models
 		public string? PostalCode { get; set; }
 		[Required]
 		public string PhoneNumber { get; set; }
+		
 	}
 }

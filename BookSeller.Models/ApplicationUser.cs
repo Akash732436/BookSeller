@@ -23,5 +23,6 @@ namespace BookSeller.Models
 		[ForeignKey("CompanyId")]
 		[ValidateNever]
 		public Company Company { get; set; }
+
 	}
 }
