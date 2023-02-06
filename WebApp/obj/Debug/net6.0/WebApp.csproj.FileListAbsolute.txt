@@ -304,3 +304,6 @@ D:\c# sample code\demo projects\BookSeller\WebApp\bin\Debug\net6.0\Microsoft.Ext
 D:\c# sample code\demo projects\BookSeller\WebApp\bin\Debug\net6.0\BookSeller.Utility.dll
 D:\c# sample code\demo projects\BookSeller\WebApp\bin\Debug\net6.0\BookSeller.Utility.pdb
 D:\c# sample code\demo projects\BookSeller\WebApp\bin\Debug\net6.0\Stripe.net.dll
+D:\c# sample code\demo projects\BookSeller\WebApp\bin\Debug\net6.0\MailKit.dll
+D:\c# sample code\demo projects\BookSeller\WebApp\bin\Debug\net6.0\MimeKit.dll
+D:\c# sample code\demo projects\BookSeller\WebApp\bin\Debug\net6.0\BouncyCastle.Crypto.dll

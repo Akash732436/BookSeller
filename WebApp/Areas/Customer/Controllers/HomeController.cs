@@ -1,6 +1,7 @@
 ﻿using BookSeller.DataAccess.Repository;
 using BookSeller.DataAccess.Repository.IRepository;
 using BookSeller.Models;
+using BookSeller.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
@@ -58,13 +59,17 @@ namespace WebApp.Areas.Customer.Controllers
             if (cartFromDb == null)
             {
 				unitOfWork.ShoppingCart.Add(shoppingCart);
+                unitOfWork.Save();
+                HttpContext.Session.SetInt32(SD.SessionCart,
+                    unitOfWork.ShoppingCart.GetAll(u=>u.ApplicationUserId==id.Value).ToList().Count());
 			}
             else
             {
                 unitOfWork.ShoppingCart.IncrementCount(cartFromDb, shoppingCart.Count);
+                unitOfWork.Save();
             }
             
-            unitOfWork.Save();
+            //unitOfWork.Save();
             return RedirectToAction(nameof(Index));
         }
 

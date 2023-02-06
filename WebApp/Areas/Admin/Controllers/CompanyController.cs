@@ -1,6 +1,8 @@
 ﻿using BookSeller.DataAccess.Repository.IRepository;
 using BookSeller.Models;
 using BookSeller.Models.ViewModels;
+using BookSeller.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
@@ -8,6 +10,7 @@ using System.Collections.Generic;
 namespace WebApp.Areas.Admin.Controllers
 {
 	[Area("Admin")]
+	[Authorize(Roles = SD.Role_Admin)]
 	public class CompanyController : Controller
 	{
 		IUnitOfWork _unitOfWOrk;
