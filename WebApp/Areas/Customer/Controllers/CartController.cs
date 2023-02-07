@@ -20,7 +20,7 @@ namespace WebApp.Areas.Customer.Controllers
 		[BindProperty]
 		public ShopingCartVM ShopingCartVM { get; set; }
 		public int OrderTotal { get; set; }
-		public CartController(IUnitOfWork unitOfWork,IEmailSender emailSender)
+		public CartController(IUnitOfWork unitOfWork, IEmailSender emailSender)
 		{
 			_unitOfWork = unitOfWork;
 			this.emailSender = emailSender;
@@ -28,13 +28,13 @@ namespace WebApp.Areas.Customer.Controllers
 
 		public IActionResult Index()
 		{
-			var claimIdentity=(ClaimsIdentity)User.Identity;
+			var claimIdentity = (ClaimsIdentity)User.Identity;
 			var id = claimIdentity.FindFirst(ClaimTypes.NameIdentifier);
 
 			ShopingCartVM = new ShopingCartVM()
 			{
-				shoppingCarts=_unitOfWork.ShoppingCart.GetAll(u=>u.ApplicationUserId==id.Value,includeProperties:"Product"),
-				orderHeader=new()
+				shoppingCarts = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == id.Value, includeProperties: "Product"),
+				orderHeader = new()
 			};
 			foreach (var item in ShopingCartVM.shoppingCarts)
 			{
@@ -201,6 +201,7 @@ namespace WebApp.Areas.Customer.Controllers
 
 			_unitOfWork.ShoppingCart.RemoveRange(shoppingCarts);
 			_unitOfWork.Save();
+			HttpContext.Session.Clear();
 			return View(id);
 
 		}
@@ -227,13 +228,15 @@ namespace WebApp.Areas.Customer.Controllers
 			if (cart.Count == 1)
 			{
 				_unitOfWork.ShoppingCart.Remove(cart);
-			}
+                var count = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == cart.ApplicationUserId).ToList().Count-1;
+                HttpContext.Session.SetInt32(SD.SessionCart, count);
+            }
 			else
 			{
 				_unitOfWork.ShoppingCart.DecrementCount(cart, 1);
 			}
 			
-
+			
 			_unitOfWork.Save();
 			return RedirectToAction(nameof(Index));
 		}
@@ -242,9 +245,11 @@ namespace WebApp.Areas.Customer.Controllers
 		{
 			ShoppingCart cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.Id == cartId);
 			_unitOfWork.ShoppingCart.Remove(cart);
-
-			_unitOfWork.Save();
-			return RedirectToAction(nameof(Index));
+            
+            _unitOfWork.Save();
+            var count = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == cart.ApplicationUserId).ToList().Count;
+            HttpContext.Session.SetInt32(SD.SessionCart, count);
+            return RedirectToAction(nameof(Index));
 		}
 	}
 }

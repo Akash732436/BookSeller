@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "I98Ow5bwwExEWKDQP0ztlLStna9s8iyuibRbehcAP/eqQ0washDzhE97QH5TjIXRdXEIHFH+EWZMlIiGBn/Q1w==",
+  "dgSpecHash": "5HsajIq7eBMStxUirBIfOeV8mFT2cGoIez3/BWqAG5ia99zrRNy3zl1ciThlBIcFDaJuUZm5U435p+7iBd/BSw==",
   "success": true,
   "projectFilePath": "D:\\c# sample code\\demo projects\\BookSeller\\WebApp\\WebApp.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\akash\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\akash\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\akash\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\akash\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\6.0.0\\microsoft.aspnetcore.authentication.facebook.6.0.0.nupkg.sha512",
     "C:\\Users\\akash\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\akash\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "C:\\Users\\akash\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.12\\microsoft.aspnetcore.cryptography.internal.6.0.12.nupkg.sha512",
